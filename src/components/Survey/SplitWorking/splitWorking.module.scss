@@ -1,0 +1,29 @@
+@use '@/styles/color.scss';
+
+.s_container {
+  background-color: color.$onPrimary;
+  border-radius: 20px;
+  font-weight: 600;
+  height: 26.2rem;
+  padding: 20px;
+  width: 21.4rem;
+}
+
+.s_selectedContainer {
+  border: 1px solid color.$primary;
+}
+
+.s_content {
+  text-align: left;
+}
+
+.s_title {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.s_description {
+  font-size: 1.4rem;
+  margin-bottom: 17px;
+}
